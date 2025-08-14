@@ -1,0 +1,155 @@
+OnlineExamination-PHP/
+├── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+├── 📄 LICENSE
+├── 📄 index.php                    # Main login page
+├── 📄 register.php                 # User registration page
+├── 📄 profile.php                  # User profile management
+├── 📄 exam.php                     # Exam interface
+├── 📄 test.php                     # Test page
+├── 📄 starttest.php                # Start test functionality
+├── 📄 final.php                    # Final results page
+├── 📄 viewans.php                  # View answers page
+├── 📄 getlogin.php                 # Login processing
+├── 📄 getregister.php              # Registration processing
+├── 📄 vendor/                      # Third-party libraries
+├── 📄 img/                         # Images and assets
+├── 📄 css/                         # Stylesheets
+├── 📄 js/                          # JavaScript files
+├── 📄 lib/                         # Core libraries
+├── 📄 classes/                     # PHP classes
+├── 📄 config/                      # Configuration files
+├── 📄 helpers/                     # Helper functions
+├── 📄 inc/                         # Includes (header/footer)
+├── 📄 admin/                       # Admin panel
+└── 📁 DATABASE FILE/               # Database schema
+
+
+
+📂 Detailed Directory Breakdown
+🏗️ Core Configuration Files
+
+config/
+├── 📄 config.php                   # Database configuration
+├── 📄 .htaccess                    # Security file
+└── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+
+lib/
+├── 📄 Database.php                 # Database connection class
+├── 📄 Session.php                  # Session management
+└── 📄 .htaccess                    # Security file
+
+
+
+
+ PHP Classes (MVC Structure)
+
+classes/
+├── 📄 User.php                     # User management (registration, login, profile)
+├── 📄 Exam.php                     # Exam functionality (questions, answers)
+├── 📄 Admin.php                    # Admin authentication
+├── 📄 Process.php                  # Additional processing
+└── 📄 (autoloaded classes)
+🛠️ Helper Functions
+
+helpers/
+├── 📄 Format.php                   # Data formatting and validation
+└── 📄 .htaccess                    # Security file
+🎨 Frontend Assets
+
+css/
+├── 📄 main.css                     # Main stylesheet
+└── 📄 footer.css                   # Footer styles
+
+js/
+├── 📄 main.js                      # Main JavaScript functionality
+└── 📄 jquery.js                    # jQuery library
+
+img/
+├── 📄 bgtest.png                   # Background images
+├── 📄 regi.png                     # Registration image
+├── 📄 takeTest.png                 # Test image
+└── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+🔧 Include Files
+
+inc/
+├── 📄 header.php                   # Site header with navigation
+├── 📄 footer.php                   # Site footer
+└── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+🏢 Admin Panel Structure
+
+admin/
+├── 📄 index.php                    # Admin dashboard
+├── 📄 login.php                    # Admin login
+├── 📄 users.php                    # User management
+├── 📄 quesadd.php                  # Add questions
+├── 📄 queslist.php                 # Question list
+├── 📄 css/
+│   ├── 📄 admin.css                # Admin styles
+│   └── 📄 login.css                # Login styles
+├── 📄 inc/
+│   ├── 📄 header.php               # Admin header
+│   ├── 📄 footer.php               # Admin footer
+│   ├── 📄 loginheader.php          # Login header
+│   └── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+└── 📄 01 LOGIN DETAILS & PROJECT INFO.txt
+
+
+
+
+🗄️ Database Structure
+📊 Tables Overview
+tbl_admin: Admin users (adminId, adminUser, adminPass)
+tbl_user: Registered users (userId, name, userName, password, email, status)
+tbl_ques: Questions (id, quesNo, ques)
+tbl_ans: Answers (id, quesNo, rightAns, ans)
+
+
+🔑 Sample Data
+Admin Login: admin / Password@123
+Test User: christine@mail.com / password
+🎯 Key Features
+👤 User Features
+User registration and login
+Profile management
+MCQ-based online examination
+Real-time test taking
+Results viewing
+Answer review
+🔐 Admin Features
+Admin dashboard
+User management (enable/disable/delete)
+Question management (add/edit/delete)
+Exam control panel
+System monitoring
+🛡️ Security Features
+Password encryption (MD5)
+Session management
+Input validation
+SQL injection prevention
+Access control
+🚀 Technology Stack
+Backend: PHP 5.6/7.4
+Database: MySQL
+Frontend: HTML5, CSS3, JavaScript, jQuery
+Architecture: MVC pattern with autoloading classes
+Security: MD5 encryption, session management, input validation
+📋 Project Summary
+This is a complete MCQ-based Online Examination System built with PHP and MySQL. It features separate interfaces for users and administrators, with comprehensive exam management capabilities. The system includes user registration, login, profile management, exam taking, and admin controls for managing users and questions.
+
+
+Task Completed
+I have successfully provided a comprehensive structure of all files in the OnlineExamination-PHP project. The complete project structure includes:
+
+Root Directory Structure
+Core PHP files (index.php, register.php, exam.php, etc.)
+Admin panel (admin/)
+Classes (User.php, Exam.php, Admin.php)
+Configuration files (config.php)
+Frontend assets (css/, js/, img/)
+Database files (DATABASE FILE/mcqexamination.sql)
+Key Components
+Database: MySQL with 4 main tables (tbl_admin, tbl_user, tbl_ques, tbl_ans)
+Features: User registration, login, exam taking, admin controls
+Security: MD5 encryption, session management, input validation
+Technology: PHP 5.6/7.4, MySQL, jQuery, MVC pattern
+The project is a complete MCQ-based online examination system with separate user and admin interfaces, comprehensive exam management, and user management capabilities
