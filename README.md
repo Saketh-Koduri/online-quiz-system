@@ -25,14 +25,23 @@
 ## Project Structure
 
 OnlineExamination-PHP/
+
 ├── index.php, register.php, exam.php, profile.php, final.php, viewans.php, starttest.php
+ 
 ├── vendor/ (external libraries)
+ 
 ├── css/, js/, img/
+ 
 ├── lib/ (Database, Session classes + .htaccess)
+ 
 ├── classes/ (User.php, Exam.php, Admin.php, Process.php)
+ 
 ├── helpers/ (Format.php + .htaccess)
+ 
 ├── config/ (config.php + .htaccess)
+ 
 └── inc/ (header.php, footer.php)
+ 
 └── admin/ (admin index, login, users, quesadd, queslist + their inc/css)
 
 
